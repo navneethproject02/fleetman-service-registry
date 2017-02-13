@@ -8,6 +8,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
+	<configuration>
+        <finalName>eureka</finalName>                   
+    	</configuration>
+	
 	<name>fleetman-registry</name>
 	<description>Eureka Registry for Fleeman</description>
 
