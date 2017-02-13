@@ -8,9 +8,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	 <build>
-	   <finalName>eureka</finalName>
-	 </build>	
 	<name>fleetman-registry</name>
 	<description>Eureka Registry for Fleeman</description>
 
@@ -53,6 +50,8 @@
 	</dependencyManagement>
 
 	<build>
+	   <finalName>eureka</finalName>
+		
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
