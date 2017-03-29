@@ -50,7 +50,6 @@
 	</dependencyManagement>
 
 	<build>
-	   <finalName>eureka</finalName>
 		
 		<plugins>
 			<plugin>
